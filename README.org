@@ -1,0 +1,25 @@
+* anki-touchbar
+This is a configuration for a simple Touch Bar preset for [[https://folivora.ai][BetterTouchTool]] for the [[https://apps.ankiweb.net][Anki flashcard software]].
+
+[[./screenshots/screenshot.png]]
+
+** Functionality
+The first group (of three buttons) allow you to toggle between card types when in the "Add" menu. The three types are:
+
+    + Basic-AnKingMed
+    + Cloze-AnKingMaster
+    + Basic (and reversed card)
+
+You can customize these specific cards or add more from the BetterTouchTool configuration.
+
+/Note: There is currently a keyboard shortcut conflict when the "Browse" tab is also open, which causes problems with toggling cards. If any errors arise, make sure the "Browser" tab is not open./
+
+The "Bullet" button simply pastes in a bullet symbol (• ) and a space into the focused textfield.
+
+The "TODO" button is used during flashcard reviews. It simply performs the Cmd+2 keyboard shortcut, which assigns an Orange flag to the current card. (The purpose of the button is to remind me which color flag and keyboard shortcut correspond to my "TODO" cards.) Similarly as above, this button can be duplicated and recolored to represent each of the different flags.
+
+** Set Up
+1. This preset requires [[https://folivora.ai][BetterTouchTool]] installed. 
+2. Clone this repository or download as a zip (click the green "Code" button on GitHub) and extract the files.
+3. In the BetterTouchTool configuration, navigate to "Touch Bar" on the top menu, then click on "Preset" on the top-right. Click the "Import" button in the Preset Menu.
+4. Navigate to the extracted folder and select the =anki.bttpreset= file. The preset will be imported and be active when using Anki.
